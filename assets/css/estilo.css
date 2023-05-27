@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.banner{
+    text-align: center;
+    color: #ebebda;
+    font-family: system-ui; 
+    font-weight: bold;
+    text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+    1px 1px #191818, -1px -1px #0a0a0a, 1px -1px #000000, -1px 1px #0c0c0c;
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.logo{
+    width: 20rem;
+    border-radius: 2rem;
+}
+
+.albums{
+    text-align: center;
+    list-style-position: inside;
+    color: white;
+    font-family: system-ui;  
+    border: 1rem ridge rgba(247, 247, 236, 0.6);
+    padding: 2rem; 
+    padding-bottom: 0rem;
+    padding-top: 2rem; 
+}
+
+.list1{
+    display: inline-block;
+    text-align: left;
+}
+
+.list2{
+    display: inline-block;
+    text-align: left;
+    padding-left: 3rem;
+}
+
+.list3{
+    display: inline-block;
+    text-align: left;
+    padding-left: 3rem;
+}
+
+.lydimg{
+    display: block;
+    margin: auto;
+    width: 12rem;
+    padding-right: 35rem;
+    margin-top: -6rem;
+    margin-bottom: 2rem;
+}
+
+.pcimg{
+    display: block;
+    margin: auto;
+    width: 12rem;
+    padding-right: 35rem;
+    margin-top: -6rem;
+    margin-bottom: 2rem;
+}
+
+.stimg{
+    display: block;
+    margin: auto;
+    width: 12rem;
+    padding-right: 35rem;
+    margin-top: -6rem;
+    margin-bottom: 2rem;
+}
+
+.socials{
+    text-align: center;
+    color: white;
+    font-family: system-ui;
+    background-color:#355b68; 
+    padding: 1rem;
+}
+
+body{
+    background-color:#011c25;
+}
